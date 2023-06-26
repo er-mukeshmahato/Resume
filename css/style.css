@@ -1,0 +1,384 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --green:#09ba6a;
+    --red:#e81111;
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.icon{
+    color: white;
+}
+
+.resume-section{
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;  
+    margin-bottom: 100px;
+     
+}
+.row{ 
+       
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.pf-detail-sec-wrapper{ 
+    width: 25%;
+    background-color:#000000ab;
+    color: white;
+    height: 358px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+.pf-detail-wrapper{
+    width: 100%;
+}
+.pf-image-container{
+    margin-top: 40px;  
+    display: flex;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    box-shadow: 5px 5px 2px red;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+}
+    
+   
+    
+.pf-name{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.pf-detail-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.social-media-container{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-container .icon{
+    font-size: 30px;
+}
+
+/* for contact  */
+.contact-wrapper{
+    margin-top: 31px;
+    width: 100%;
+   
+
+}
+.contact-container-wrapper{
+    box-shadow: 2px 2px 2px maroon;
+
+}
+
+.contact-wrapper .contact-container{
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    background-color: rgb(80 229 219);
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    
+    
+}
+
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 22px;
+}
+.p-address{
+    margin: 20px 0px 15px 0px ;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.p-address span,.t-address span{
+    margin-top: 3px;
+    font-size: 15px;
+}
+.t-address{
+    
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.email{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ph-number{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.detail-wrapper img{
+    width: fit-content;
+    height: fit-content;
+
+}
+.skill-section-wrapper{
+width: 100%;
+height: auto;
+margin-top: 5px;
+
+}
+.skill-lst-wrapper {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+.hobby-lst-wrapper {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skill-wrapper{
+    box-shadow: 2px 2px 2px gray;
+
+}
+.skill-heading{
+    
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: black;
+ } 
+
+.tags  {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+.tags li {
+    
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #05450b;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 12px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+}
+/* language section */
+.lan-section-wrapper{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px maroon;
+    color: black;
+}
+.lan-heading{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 22px;
+}
+.lan-item-wrapper{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.item{
+    height: 17px;
+    display: flex; 
+    margin-bottom: 15px;  
+}
+.item-heading{
+    width: 20%;
+}
+
+.item-prof{
+    width: 80%;
+    border: 1px solid rgb(63, 72, 4);
+    margin: auto;
+    height: 12px;
+}
+.item-prof .lan-eng{
+    width: 65%;
+    background: #e81111; 
+    height:12px ;
+ }
+ .item-prof .lan-jp{
+    width: 25%;
+    background: #e81111; 
+    height:12px ;
+ }
+ .item-prof .lan-ind{
+    width: 70%;
+    background: #e81111; 
+    height:12px ;
+ }
+ .item-prof .lan-np{
+    width: 90%;
+    background: #e81111; 
+    height:12px ;
+ }
+
+
+
+/* his is a right-side section */
+
+
+.content-section{
+    width: 70%;
+   
+    
+   
+   
+}
+.head-wrapper{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    background-color: gray;
+    width: 100%;
+    height: auto;
+}
+.head-wrapper h1{
+    font-size: 22px;
+    color: #410505;
+}
+.content-section-wrapper-top{
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px gray;
+    
+}
+.content-section-wrapper{  
+    padding: 0 25px 10px 25px ;
+}
+.education-wrapper .title{
+   
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+
+}
+.title span{
+    border-bottom:2px solid #e81111;
+}
+
+.master-detail{
+    margin-bottom: 15px;
+    font-size: 17px;
+
+}
+.bach-detail{
+    font-size: 17px;
+    margin-bottom: 15px;
+   
+}
+.work-experence-wrapper .title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.work-detail{
+    margin-bottom: 10px;
+}
+.proj-heading{
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.p-heading{
+    font-weight: bold;
+    font-size: 15px;
+}
+.p-lst li {
+    list-style: none;
+    margin-left: 20px;
+}
+/* extra  section for map and youtube videos */
+.extra-wrapper{
+    margin-top: 17px;
+    display: flex;
+    width: 100%;
+    
+    gap: 3px;
+    height: 413px;
+}
+.map-section-wrapper{
+    width: 50%;
+    box-shadow: 2px 2px 6px gray;
+    height: 100%;
+}
+.map-heading{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background: grey;
+    font-weight: bold;
+    color: #4c0404;
+    padding: 5px;
+}
+.map-detail{
+    height: 100%;
+    width: 100%;
+}
+.map-detail iframe{
+    height: 380px;
+    width: 478px;
+}
+.yt-section-wrapper{
+    width: 50%;
+    box-shadow: 2px 2px 6px gray;
+    height: 100%;
+}
+.yt-heading{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background: grey;
+    font-weight: bold;
+    color: #4c0404;
+    padding: 5px;
+}
+.yt-detail{
+    height: 100%;
+    width: 100%;
+}
+.yt-detail iframe{
+    height: 380px;
+    width: 478px;
+}
+
+
+
